@@ -1,0 +1,33 @@
+/*	Body – Use Calibri font */
+body {font-family: Calibri;}
+/* Paragraphs – Use Calibri font */
+p {font-family: Calibri;}
+  
+/*	h1, h2 – Use Courier New font and color to be red */
+h1, h2 {font-family: 'Courier New'; color: red;}
+  
+/* Links */
+   /* Not visited to be red */
+    a:link {color: red;text-decoration: none;}
+
+   /* Visited to be green */
+   a:visited {color: green;}
+/* Input Submit Button */
+   /* Hover color to be red */
+    input[type="submit"]:hover {background-color: red;}
+
+   /* Active color to be green */
+   input[type="submit"]:active {background-color: green;}
+
+/* lists */
+    /* Unordered lists – make items square */
+    ul {list-style-type: square;}
+
+    /*Ordered lists – lower-roman */
+    ol {list-style-type: lower-roman;}
+/* Tables */
+    /* Even row background color to be light gray */
+    tr:(even){background-color: lightgray}
+    /* Hover over row background color to be light blue (any row) */
+    tr:hover {background-color: lightblue}
+
