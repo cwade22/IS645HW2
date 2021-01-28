@@ -1,10 +1,53 @@
-<!--Link to use the external CSS -->
-<!--A link to the Introductory Page (use relative link)-->
-<!--Headings size 2 and 4-->
-<!--Text Input -->
-<!--Password input-->
-<!--Radio buttons (at least 3)-->
-<!--Checkbox (at least 2)-->
-<!--A multiple select box (at least 4 options)-->
-<!--Date input (HTML 5 validation)-->
-<!--Submit button-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--Link to use the external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+<head>
+  <title>Carlie's Cat Corner-Adoption</title>
+ 
+</head>
+<body>
+   <!--A link to the Introductory Page (use relative link)-->
+   <p><a href=intro.html >Back to Carlie's Cat Corner </a> </a></p>
+   <!--Headings size 2 -->
+   <h2>Adopt Baeu</h2>
+   <!--Heading size 4-->
+   <h4>Input User Information</h4>
+   
+   <form>
+    <!--Text Input -->
+      <label>Username:</label><Br>
+      <input type="text" id="uname" name="uname"><br>
+    <!--Password input-->
+    <label>Password:</label><Br>
+      <input type="password" id="Password" name="password"><br>
+    <!--Radio buttons (at least 3)-->
+    <input type="radio" id="Cash" name="Cash" value="Cash">
+    <label for="Cash">Cash</label><br>
+    <input type="radio" id="Credit" name="Credit" value="Credit">
+    <label for="Credit">Credit</label><br>
+    <input type="radio" id="Debit" name="Debit" value="Debit">
+    <label for="Debit">Debit</label><br>
+    <!--Checkbox (at least 2)-->
+    <form>
+      <input type="checkbox" id="include Kitty Kit" name="include kitty kit" value="Add Kitty kit">
+      <label for="Add kitty kit"> Add kitty take home kit</label><br>
+      <input type="checkbox" id="Add litter kit" name="litter kit" value="litter kit">
+      <label for="litter kit"> Add litter kit</label><br>
+    <!--A multiple select box (at least 4 options)-->
+    <p><strong>Select your Pickup Location </strong></p> <select multiple size="4"> <option value="Downtown">Carlie's Cat Cafe #1 (Downtown)</option> <option value="Carson">Carlie's Cat Cafe #2 (Carson)</option> <option value="Carson Shelter">Carson animal shelter</option> <option value="Dropoff">Drop off to me</option></select>
+
+    <!--Date input (HTML 5 validation)-->
+    <p>Select Today's Date</p>
+    <input type="date" name="Date" placeholder="select Today's Date" >
+    <!--Submit button-->
+    <input type="submit" value="Submit">
+   </form>
+   
+</body>
+</html>

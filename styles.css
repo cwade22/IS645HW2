@@ -3,8 +3,7 @@ body {font-family: Calibri;}
 
   
 /*	h1, h2 – Use Courier New font and color to be red */
-h1{font-family: 'Courier New'; color: red;} 
-h2 {font-family: 'Courier New'; color: red;}
+h1,h2{font: "Courier New"; color: red;}
 
 /* Paragraphs – Use Calibri font */
 p {font-family: Calibri;} 
@@ -29,8 +28,11 @@ p {font-family: Calibri;}
     /*Ordered lists – lower-roman */
     ol {list-style-type: lower-roman;}
 /* Tables */
-    /* Even row background color to be light gray */
-    tr:(even){background-color: lightgray}
+   
+    table, th, td {border: 1px solid black;}
+     /* Even row background color to be light gray */
+     tr:nth-child(even){background-color: lightgrey;}
+    
     /* Hover over row background color to be light blue (any row) */
     tr:hover {background-color: lightblue}
 
